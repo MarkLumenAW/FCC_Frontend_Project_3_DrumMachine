@@ -14,7 +14,7 @@ export default function BasicDrumKey(props) {
 
 
   const buttonStyle = clsx(
-    'drum-pad text-9xl rounded-md w-40 h-40 transition-all duration-100 ease-in-out',
+    'drum-pad text-9xl rounded-md w-40 h-40 transition-all duration-200 ease-in-out',
     {
       'text-white/10 bg-white/10 shadow-lg cursor-not-allowed': switchState,
       'bg-gradient-to-br from-cyan-500 to-pink-500 text-white shadow-lg hover:text-yellow-400': !switchState,
@@ -26,9 +26,8 @@ export default function BasicDrumKey(props) {
     soundRef.current.play();
     dispatch(updateDisplay({ value: `${props.soundName}` }));
     setIsAnimating(true);
-    setTimeout(() => setIsAnimating(false), 200);
+    setTimeout(() => setIsAnimating(false), 300);
   };
-
 
   useEffect(() => {
     soundRef.current.volume = volume;

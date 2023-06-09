@@ -10,10 +10,7 @@ export default function BankSwitch(props) {
   const switchState = useSelector(state => state.switch.value);
 
   const buttonStyle = clsx(
-    'my-auto p-1.5 rounded-full hover:bg-white/10', {
-    '': !switchState,
-    '': switchState,
-  });
+    'my-auto p-1.5 rounded-full hover:bg-white/10');
 
   const toggleSwitchHandler = () => {
     console.log(switchState ? 'Switch is on.' : 'Switch is off.');
