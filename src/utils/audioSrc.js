@@ -1,0 +1,9 @@
+export const soundQ = {src:'/src/assets/sounds/Q-Heater-1.mp3',soundName:'Heater 1'}
+export const soundW = {src:'/src/assets/sounds/W-Heater-2.mp3',soundName:'Heater 2'}
+export const soundE = {src:'/src/assets/sounds/E-Heater-3.mp3',soundName:'Heater 3'}
+export const soundA = {src:'/src/assets/sounds/A-Heater-4_1.mp3',soundName:'Heater 4'}
+export const soundS = {src:'/src/assets/sounds/S-Heater-6.mp3',soundName:'Clap'}
+export const soundD = {src:'/src/assets/sounds/D-Dsc_Oh.mp3',soundName:'Dsc Oh'}
+export const soundZ = {src:'/src/assets/sounds/Z-Cev_H2.mp3',soundName:'Cev H2'}
+export const soundX = {src:'/src/assets/sounds/X-Kick_n_Hat.mp3',soundName:'Kick_n\'Hat'}
+export const soundC = {src:'/src/assets/sounds/C-RP4_KICK_1.mp3',soundName:'Kick'}
